@@ -24,8 +24,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url("../images/pattern-hills.svg"),
-      url("../images/bg-stars.svg");
+    background-image: url("../image/pattern-hills.svg"),
+      url("../image/bg-stars.svg");
     background-position: bottom left, top left;
     background-repeat: no-repeat, repeat;
   }
@@ -122,8 +122,3 @@
     font-size: 1rem;
     font-weight: 600;
   }
-  .social {
-    display: flex;
-    gap: 2rem;
-  }
-  
