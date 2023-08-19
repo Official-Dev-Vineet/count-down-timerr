@@ -1,0 +1,51 @@
+@media screen and (min-width: 37.6rem) and (max-width: 180rem) {
+    body{
+        background-size: 100%;
+    }
+  .container {
+    max-width: 120rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 4rem;
+    letter-spacing: 3px;
+    text-shadow: -0.8rem 0.4rem 0 #222;
+  }
+  #timer {
+    padding: 4rem auto;
+    gap: 3rem;
+  }
+  .timer-container {
+    height: 40rem;
+  }
+  span {
+    font-size: 4rem;
+    padding: 3rem;
+  }
+  span::before {
+    width: 1.6rem;
+    height: 1.6rem;
+    transform: translate(-8px, -50%);
+  }
+  span::after {
+    width: 1.6rem;
+    height: 1.6rem;
+    transform: translate(8px, -50%);
+  }
+  #timer p {
+    font-size: 1.5rem;
+    top: calc(100% + 3.5rem);
+  }
+  button {
+    padding: 1.5rem 6rem;
+    background-color: rgba(0,0,0,0.3);
+  }
+  .social {
+    gap: 3rem;
+  }
+  .social img {
+    height: 4rem;
+    width: 4rem;
+  }
+}
